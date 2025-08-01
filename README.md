@@ -27,6 +27,8 @@ cp -r ai-coding-rules/* your-project/
 - `CODE_QUALITY_RULES.md` - 代码质量标准和技术债务管理
 - `ARCHITECTURE_RULES.md` - 架构设计原则和设计模式应用
 - `GIT_RULES.md` - Git提交规范和分支管理策略
+- `TASK_EXECUTION_RULES.md` - 复杂任务执行规范和断点恢复机制
+- `SPEC_DRIVEN_RULES.md` - 大型项目的规范驱动开发框架
 
 ### 场景特定规则
 - `FRONTEND_RULES.md` - 前端开发专用规则
@@ -38,9 +40,34 @@ cp -r ai-coding-rules/* your-project/
 ### AI辅助开发
 - `AI_CODING_RULES.md` - AI辅助编程专用规则和最佳实践
 - `UTILITY_RULES.md` - 常用工具函数和设计模式模板
+- `SPEC_EXAMPLE_DEMO.md` - Spec模式完整演示案例和学习参考
 
 ### 配置文件
 - `.gitignore` - 标准忽略文件模板
+
+## 🎯 规则选择指南
+
+### 根据任务复杂度选择：
+
+#### 🚀 简单任务（单文件、快速修复）
+- 主要使用：`GENERAL_RULES.md`
+- 辅助参考：`GIT_RULES.md`
+
+#### 🔧 中等复杂任务（多文件、多步骤）
+- 主要使用：`GENERAL_RULES.md` + `TASK_EXECUTION_RULES.md`
+- 场景特定：`FRONTEND_RULES.md` 或 `BACKEND_RULES.md`
+- 辅助参考：`AI_CODING_RULES.md`
+
+#### 🏗️ 大型项目（需要正式文档、团队协作）
+- 主要使用：`SPEC_DRIVEN_RULES.md`
+- 核心支持：`ARCHITECTURE_RULES.md` + `SECURITY_RULES.md`
+- 质量保证：`CODE_QUALITY_RULES.md` + `TESTING_RULES.md`
+- 团队协作：`WORKPLACE_RULES.md`
+
+### 根据开发环境选择：
+- **个人项目**：灵活选择，重点关注代码质量
+- **团队项目**：强制使用Git规则和工作场景规则
+- **客户项目**：建议使用Spec模式确保需求准确性
 
 ## 🎯 使用方法
 

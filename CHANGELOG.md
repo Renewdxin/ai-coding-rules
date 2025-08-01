@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2025-08-01
+
+### Added
+- `TASK_EXECUTION_RULES.md` - Complex task execution standards and breakpoint recovery mechanism
+- Task status check phase for retry scenario detection
+- Multi-solution comparison framework for complex tasks
+- Breakpoint recovery system for interrupted tasks
+- Real-time progress tracking with status indicators
+- Integration guidelines with existing rule sets
+
+### Enhanced
+- Task planning with user confirmation requirements
+- Status recovery for conversation continuity
+- Parallel execution optimization strategies
+
 ## [1.0.0] - 2025-08-01
 
 ### Added
